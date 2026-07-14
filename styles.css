@@ -510,6 +510,44 @@ code {
   border-radius: 12px;
 }
 
+.project-preview {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: var(--panel);
+  border: 1px solid var(--border);
+}
+
+.screenshots-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.8rem;
+  width: 100%;
+  padding: 0.8rem;
+}
+
+.gallery-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+  object-fit: cover;
+  transition: transform var(--transition);
+}
+
+.gallery-img:hover {
+  transform: scale(1.02);
+}
+
+.project-screenshot {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: var(--radius-lg);
+}
+
 .contact-grid {
   align-items: start;
 }
