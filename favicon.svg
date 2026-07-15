@@ -1,4 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="16" fill="#08040f"/>
-  <path d="M18 18h10l8 10 8-10h10v28h-10V33l-8 10-8-10v13H18z" fill="#8b5cf6"/>
+  <defs>
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a855f7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="64" height="64" rx="14" fill="#05030a"/>
+  <!-- Border -->
+  <rect width="64" height="64" rx="14" fill="none" stroke="#a855f7" stroke-width="2" opacity="0.3"/>
+  <!-- Main T shape -->
+  <g transform="translate(32, 32)">
+    <!-- Top bar -->
+    <rect x="-16" y="-18" width="32" height="8" rx="4" fill="url(#purpleGrad)"/>
+    <!-- Vertical bar -->
+    <rect x="-6" y="-10" width="12" height="24" rx="6" fill="url(#purpleGrad)"/>
+    <!-- Accent dots -->
+    <circle cx="-14" cy="-14" r="2.5" fill="#c084fc" opacity="0.6"/>
+    <circle cx="14" cy="-14" r="2.5" fill="#c084fc" opacity="0.6"/>
+  </g>
 </svg>
