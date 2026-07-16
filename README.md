@@ -1,8 +1,8 @@
 # Taha Touil Portfolio
 
-A modern, responsive single-page portfolio website for Taha Touil — a freelance full-stack developer specializing in Laravel, Filament, and the TALL stack.
+A modern, responsive single-page portfolio website for me — aa a freelance full-stack developer specializing in Laravel, Filament, and the TALL stack.
 
-This project showcases Taha’s background, technical skills, services, and a featured inventory management project, with a polished dark theme and smooth interactions built with vanilla HTML, CSS, and JavaScript.
+This project showcases my background, technical skills, services, and a featured inventory management project, with a polished dark theme and smooth interactions built with vanilla HTML, CSS, and JavaScript.
 
 ## Features
 
