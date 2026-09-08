@@ -46,10 +46,10 @@ body::after {
 }
 
 body::before {
-  background-image: linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
   background-size: 60px 60px;
-  mask-image: linear-gradient(180deg, rgba(0,0,0,0.4), transparent 90%);
+  mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4), transparent 90%);
 }
 
 body::after {
@@ -212,7 +212,9 @@ h2 {
 }
 
 @keyframes blink {
-  50% { opacity: 0; }
+  50% {
+    opacity: 0;
+  }
 }
 
 .hero-actions {
@@ -248,7 +250,7 @@ h2 {
 .btn-secondary {
   color: var(--text);
   border-color: var(--border);
-  background: rgba(255,255,255,0.03);
+  background: rgba(255, 255, 255, 0.03);
 }
 
 .hero-badges,
@@ -303,8 +305,15 @@ h2 {
 }
 
 @keyframes float {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-12px); }
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-12px);
+  }
 }
 
 .panel-card,
@@ -321,6 +330,7 @@ h2 {
 }
 
 .panel-card {
+  text-decoration: none;
   width: min(100%, 320px);
   padding: 1.5rem;
   border-radius: var(--radius-lg);
@@ -350,7 +360,7 @@ h2 {
 }
 
 .accent-card {
-  background: linear-gradient(145deg, rgba(139, 92, 246, 0.18), rgba(20,16,35,0.9));
+  background: linear-gradient(145deg, rgba(139, 92, 246, 0.18), rgba(20, 16, 35, 0.9));
 }
 
 .about-card ul {
@@ -433,7 +443,7 @@ h2 {
 
 code {
   font-family: var(--font-mono);
-  background: rgba(255,255,255,0.06);
+  background: rgba(255, 255, 255, 0.06);
   padding: 0.2rem 0.4rem;
   border-radius: 6px;
 }
@@ -450,15 +460,15 @@ code {
   margin: 0;
 }
 
-.feature-list li + li {
+.feature-list li+li {
   margin-top: 0.55rem;
 }
 
 .mockup-frame {
   padding: 0.85rem;
   border-radius: 20px;
-  background: rgba(255,255,255,0.06);
-  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .mockup-topbar {
@@ -471,7 +481,7 @@ code {
   width: 0.7rem;
   height: 0.7rem;
   border-radius: 50%;
-  background: rgba(255,255,255,0.2);
+  background: rgba(255, 255, 255, 0.2);
 }
 
 .mockup-body {
@@ -493,7 +503,7 @@ code {
 
 .mockup-row {
   height: 12px;
-  background: rgba(255,255,255,0.12);
+  background: rgba(255, 255, 255, 0.12);
   border-radius: 999px;
 }
 
@@ -511,7 +521,7 @@ code {
 
 .mockup-grid div {
   height: 50px;
-  background: linear-gradient(135deg, rgba(139,92,246,0.34), rgba(192,132,252,0.16));
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.34), rgba(192, 132, 252, 0.16));
   border-radius: 12px;
 }
 
@@ -584,8 +594,8 @@ code {
 
 .contact-form input,
 .contact-form textarea {
-  border: 1px solid rgba(255,255,255,0.1);
-  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.04);
   color: var(--text);
   padding: 0.8rem 0.95rem;
   border-radius: 12px;
@@ -594,8 +604,8 @@ code {
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-  outline: 1px solid rgba(139,92,246,0.5);
-  border-color: rgba(139,92,246,0.4);
+  outline: 1px solid rgba(139, 92, 246, 0.5);
+  border-color: rgba(139, 92, 246, 0.4);
 }
 
 .site-footer {
@@ -630,6 +640,7 @@ code {
 }
 
 @media (max-width: 960px) {
+
   .hero,
   .project-card,
   .about-grid,
@@ -692,7 +703,10 @@ code {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after {
+
+  *,
+  *::before,
+  *::after {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;

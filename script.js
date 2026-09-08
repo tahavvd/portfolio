@@ -1,5 +1,6 @@
 const navLinks = Array.from(document.querySelectorAll('.site-nav a'));
 const sections = Array.from(document.querySelectorAll('main section[id]'));
+const brandLink = document.querySelector('.brand');
 const header = document.querySelector('.site-header');
 const menuToggle = document.querySelector('.menu-toggle');
 const nav = document.querySelector('.site-nav');
@@ -41,7 +42,6 @@ function initNav() {
   handleScroll();
 }
 
-const brandLink = document.querySelector('.brand');
 
 function initBrandScrollTop() {
   brandLink?.addEventListener('click', (event) => {
@@ -52,10 +52,10 @@ function initBrandScrollTop() {
 
 function initTypingEffect() {
   const phrases = [
-    'custom inventory systems.',
-    'Laravel & Filament apps.',
-    'TALL stack products.',
-    'real-world business tools.',
+    'complete Laravel web applications.',
+    'role-based admin panels with Filament.',
+    'server-rendered apps with Blade & Livewire.',
+    'reliable backend systems from scratch.',
   ];
   let phraseIndex = 0;
   let charIndex = 0;
