@@ -41,6 +41,15 @@ function initNav() {
   handleScroll();
 }
 
+const brandLink = document.querySelector('.brand');
+
+function initBrandScrollTop() {
+  brandLink?.addEventListener('click', (event) => {
+    event.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+}
+
 function initTypingEffect() {
   const phrases = [
     'custom inventory systems.',
@@ -142,3 +151,4 @@ initScrollAnimations();
 initMobileNav();
 initCopyCredentials();
 initContactForm();
+initBrandScrollTop();
