@@ -1,8 +1,8 @@
 # Portfolio
 
-A modern, responsive single-page portfolio website for me — as a freelance full-stack developer specializing in Laravel, Filament, and the TALL stack.
+A modern, responsive single-page portfolio website for me — a backend-focused developer specializing in Laravel, PHP, and the TALL stack.
 
-This project showcases my background, technical skills, services, and a featured inventory management project, with a polished dark theme and smooth interactions built with vanilla HTML, CSS, and JavaScript.
+This project showcases my background, technical skills, focus areas, and two featured Laravel projects (an inventory management system and a salon appointment booking system), with a polished dark theme and smooth interactions built with vanilla HTML, CSS, and JavaScript.
 
 ## Features
 
@@ -10,7 +10,7 @@ This project showcases my background, technical skills, services, and a featured
 - Smooth scrolling and animated section reveals
 - Interactive hero typing effect
 - Mobile-friendly navigation menu
-- Featured project section with demo credentials and copy-to-clipboard support
+- Two featured project cards, including one with demo credentials and copy-to-clipboard support
 - Contact section with a mailto-based form fallback
 
 ## Tech Stack
@@ -39,3 +39,4 @@ http://127.0.0.1:8000/
 - styles.css — visual design and responsive styling
 - script.js — interactions and animations
 - favicon.svg — site icon
+- images/ — profile photo and project screenshots
