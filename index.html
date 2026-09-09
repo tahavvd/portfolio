@@ -168,11 +168,10 @@
       </section>
       <section class="section reveal" id="project">
         <div class="section-heading">
-          <p class="eyebrow">Featured Project</p>
-          <h2>Inventory & Operations Project</h2>
+          <p class="eyebrow">Featured Projects</p>
+          <h2>Projects I've built and I'm building.</h2>
           <p class="section-intro">
-            A role-based inventory and operations web app built for small businesses to streamline stock control,
-            orders, suppliers, and warehouse workflows.
+            Real Laravel applications, from a completed inventory system to a work-in-progress booking platform.
           </p>
         </div>
 
@@ -189,7 +188,7 @@
             </div>
 
             <div class="project-actions">
-              <a class="btn btn-primary" href="https://inventory-app-production-a0bf.up.railway.app/" target="_blank"
+              <a class="btn btn-primary" href="https://inventory-app-production-c037.up.railway.app/" target="_blank"
                 rel="noopener noreferrer">Live Demo</a>
               <a class="btn btn-secondary" href="https://github.com/tahavvd/inventory-app" target="_blank"
                 rel="noopener noreferrer">View Code</a>
@@ -223,10 +222,59 @@
 
           <div class="project-preview">
             <div class="screenshots-gallery">
-              <img src="Screenshot 2026-07-13 021911.png" alt="Inventory App Screenshot 1" class="gallery-img" />
-              <img src="Screenshot 2026-07-13 021931.png" alt="Inventory App Screenshot 2" class="gallery-img" />
-              <img src="Screenshot 2026-07-13 021953.png" alt="Inventory App Screenshot 3" class="gallery-img" />
-              <img src="Screenshot 2026-07-13 022018.png" alt="Inventory App Screenshot 4" class="gallery-img" />
+              <img src="images/inventory-1-dashboard.png" alt="Inventory dashboard" class="gallery-img" />
+              <img src="images/inventory-2-orders.png" alt="Inventory orders view" class="gallery-img" />
+              <img src="images/inventory-3-stock-transactions.png" alt="Inventory stock transactions"
+                class="gallery-img" />
+              <img src="images/inventory-4-create-order.png" alt="Inventory create order form" class="gallery-img" />
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-main">
+            <div class="project-badges">
+              <span>Laravel 13</span>
+              <span>Blade</span>
+              <span>Tailwind CSS</span>
+              <span>Alpine.js</span>
+              <span>MySQL</span>
+              <span>Work in Progress</span>
+            </div>
+
+            <h3>Salon Appointment Booking System</h3>
+            <p>
+              A real-time booking system built for a small hair & beauty salon, replacing a paper notebook that was
+              causing double-bookings and scheduling mistakes. Covers the complete client-facing flow: service and
+              stylist selection, live slot availability, and booking confirmation — with no app download or account
+              required.
+            </p>
+
+            <div class="project-actions">
+              <a class="btn btn-secondary" href="https://github.com/tahavvd/appointment-booking-system" target="_blank"
+                rel="noopener noreferrer">View Code</a>
+            </div>
+
+            <ul class="feature-list">
+              <li>Custom availability engine that converts a stylist's schedule and existing bookings into open time
+                slots</li>
+              <li>Race-condition-safe booking using database transactions with row locking, so two clients can never
+                double-book the same slot</li>
+              <li>Server-side re-validation of every booking before it's saved, never trusting the client's submitted
+                time slot</li>
+              <li>Multi-step session-backed booking wizard with guarded steps</li>
+              <li>Owner/staff admin dashboard in progress</li>
+            </ul>
+          </div>
+
+          <div class="project-preview">
+            <div class="screenshots-gallery">
+              <img src="images/booking-1-log-in.png" alt="Appointment booking login screen" class="gallery-img" />
+              <img src="images/booking-2-services.png" alt="Appointment booking services list" class="gallery-img" />
+              <img src="images/booking-3-stylist-select.png" alt="Appointment booking stylist selection"
+                class="gallery-img" />
+              <img src="images/booking-4-select-slot.png" alt="Appointment booking time slot selection"
+                class="gallery-img" />
             </div>
           </div>
         </div>

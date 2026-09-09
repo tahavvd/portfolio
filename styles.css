@@ -713,3 +713,7 @@ code {
     scroll-behavior: auto !important;
   }
 }
+
+.project-card+.project-card {
+  margin-top: 2rem;
+}
