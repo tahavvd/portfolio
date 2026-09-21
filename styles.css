@@ -680,6 +680,7 @@ code {
 
   .menu-toggle {
     display: inline-flex;
+    order: 3;
   }
 
   .site-nav {
@@ -708,6 +709,7 @@ code {
   .language-toggle {
     margin-left: auto;
     margin-right: 0.75rem;
+    order: 2;
   }
 
   .section {
