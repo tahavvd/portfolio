@@ -28,6 +28,8 @@ const translations = {
     'Current focus': 'Projet actuel',
     'Building an appointment booking system with Laravel.': 'Création d’un système de prise de rendez-vous avec Laravel.',
     'Backend-focused developer with hands-on Laravel experience.': 'Développeur backend avec une expérience concrète de Laravel.',
+    "I'm Taha Touil, a 20-year-old third-year Computer Science Engineering student with over a year of hands-on programming experience building real Laravel applications.": "Je suis Taha Touil, étudiant de 20 ans en troisième année d’ingénierie informatique, avec plus d’un an d’expérience pratique en programmation et dans la création de véritables applications Laravel.",
+    "I focus on backend development with Laravel — building role-based systems, database-driven logic, and admin tools with Filament — and I'm continuing to grow into full ownership of projects from database to deployment.": "Je me concentre sur le développement backend avec Laravel : création de systèmes basés sur les rôles, de logiques pilotées par les bases de données et d’outils d’administration avec Filament. Je continue également à développer ma capacité à prendre en charge des projets de la base de données jusqu’au déploiement.",
     'What I bring': "Ce que j'apporte",
     'Solid backend fundamentals in PHP and Laravel': 'De solides bases backend en PHP et Laravel',
     'End-to-end feature development, from database schema to working UI': "Développement complet de fonctionnalités, du schéma de base de données à l'interface fonctionnelle",
