@@ -81,7 +81,14 @@ const translations = {
   },
 };
 
-const deviceLocale = navigator.language?.toLowerCase().startsWith('en') ? 'en' : 'fr';
+const browserLanguages = Array.isArray(navigator.languages) && navigator.languages.length
+  ? navigator.languages
+  : [navigator.language];
+const detectedLocale = browserLanguages
+  .filter(Boolean)
+  .map((language) => language.toLowerCase().split('-')[0])
+  .find((language) => language === 'en' || language === 'fr');
+const deviceLocale = detectedLocale || 'fr';
 const savedLocale = localStorage.getItem('portfolio-language');
 const locale = savedLocale === 'en' || savedLocale === 'fr' ? savedLocale : deviceLocale;
 const isFrench = locale === 'fr';
